@@ -1,0 +1,3 @@
+adevis_app_invoice:
+    resource: "@MikyUserBundle/Resources/config/routing/frontend.yml"
+    prefix : /invoice

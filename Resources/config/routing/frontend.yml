@@ -1,0 +1,4 @@
+adevis_app_invoice_user_generate:
+    path:      /user/generate/pdf
+    defaults:  { _controller: MikyInvoiceBundle:Frontend/UserInvoice:generatePDF }
+
