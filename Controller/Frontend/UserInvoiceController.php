@@ -15,7 +15,7 @@ class UserInvoiceController extends Controller
      */
     public function generatePDFAction()
     {
-        $user = $this->container->get('adevis_customer_manager')->findUserByConfirmationToken($token);
+        $user = $this->container->get('miky_customer_manager')->findUserByConfirmationToken($token);
 
         if (null === $user) {
             throw new NotFoundHttpException(sprintf('The user with "confirmation token" does not exist for value "%s"', $token));

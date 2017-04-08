@@ -6,7 +6,7 @@
 
     <!--
     <services>
-        <service id="adevis_invoice.example" class="Miky\Bundle\InvoiceBundle\Example">
+        <service id="miky_invoice.example" class="Miky\Bundle\InvoiceBundle\Example">
             <argument type="service" id="service_id" />
             <argument>plain_value</argument>
             <argument>%parameter_name%</argument>
